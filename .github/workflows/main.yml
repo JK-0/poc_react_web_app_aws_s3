@@ -40,6 +40,8 @@ jobs:
       - name: Change Directory
         run: |
           cd sample-app
+          pwd
+          ls
 
       # Install packages
       - name: Install packages
